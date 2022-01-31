@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">NotesApplication</string>
+    <string name="note_title">Note Title</string>
+    <string name="time_stamp">Time Stamp</string>
+    <string name="enter_note_title">Enter Note Title</string>
+    <string name="button">Button</string>
+    <string name="hint_note_desc">Enter Note Description</string>
 </resources>
