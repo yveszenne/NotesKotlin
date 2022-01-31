@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/black_shade_2"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            android:id="@+id/tvNoteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/note_title"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_toLeftOf="@id/ivDelete"
+            android:padding="4dp"
+            android:layout_margin="4dp" />
+
+        <TextView
+            android:id="@+id/tvTimeStamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNoteTitle"
+            android:padding="4dp"
+            android:layout_margin="4dp"
+            android:layout_toLeftOf="@id/ivDelete"
+            android:textColor="@color/white"
+            android:text="@string/time_stamp" />
+
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:padding="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
